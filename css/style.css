@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    padding: 25px;
+    background-color: #303030;
+}
+
+.list-form {
+    padding: 10px;
+}
+
+.tasks-list {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.tasks-list button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    color: rgb(252, 48, 48);
+    font-size: 32px;
+    cursor: pointer;
+}
